@@ -69,7 +69,7 @@ termはキーワード、mediaは音楽や映画などのジャンル、entity�
 
 
 
-```
+```Java
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -125,7 +125,7 @@ public class Sample {
 
 取得した値を格納しておくクラス
 
-```
+```Java
 import java.util.List;
 
 public class SampleList {
