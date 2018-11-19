@@ -368,7 +368,7 @@ namespace api_1
 
 ####   今回は「大分 : 440010」で検索してみた
 
-![キャプチャ](C:\Users\翔一\Pictures\キャプチャ.PNG)
+![キャプチャ](https://user-images.githubusercontent.com/40161221/48674369-a1f6f580-eb8e-11e8-976e-a42dc83e8b9c.PNG)
 
 
 
