@@ -1,0 +1,21 @@
+//--------------------------------------
+// GIPSイベント実装例
+//--------------------------------------
+
+OnGIPSStart
+{
+  _lang = reference[0]
+  
+  "IDEが起動したよ。今日は%(_lang)で開発するんですね。\e"
+}
+
+
+OnGIPSExceptionOccurred
+{
+  _langName = reference[0]
+  _exceptionName = reference[1]
+  _fileName = reference[2]
+  _lineAt = reference[3]
+
+  "%(_langName)のプログラムで%(_exceptionName)って例外が出たよ。\n%(_fileName)の%(_lineAt)行目辺りを確認してみるといいかも。\e"
+}

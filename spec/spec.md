@@ -13,5 +13,6 @@ GIPS通信仕様に則ったゴーストにIDEからイベントを送信した�
 ## 仕様はこちら
 - [GIPS通信仕様 ver 0.1](gips/0_1.md)
 
-## 里々でのゴースト側実装例はこちら
-- [satori_example](gips/example/satori_example.txt)
+## ゴースト側の実装例はこちら
+- YAYA -> [yaya_example](gips/example/yaya_example.txt)
+- 里々 -> [satori_example](gips/example/satori_example.txt)
