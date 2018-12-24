@@ -2,16 +2,20 @@
 
 ## 使用api
 
-- #### 天気API  :  Weather Hacks
+- [WeatherHacks](http://weather.livedoor.com/weather_hacks/qa)
 
-​	http://weather.livedoor.com/weather_hacks/qa
+Livedoorが提供する天気情報のWebAPI。
+天気・気温・天気の概要文の他その天気のアイコンまで取得できる。
 
-
+ただし商用利用は不可。このWebAPIに限らず利用規約はきっちり読んで使おう。
 
 ## 使用Package 
 
-        - DynamicJson
+- DynamicJson
 
+WeatherHacksでは値をjsonで取得できるため、jsonをC#で扱いやすくするためのライブラリを追加した。
+
+DynamixJsonはその名の通り、jsonをC#のDynamic型に変換し、いちいちjsonの受け皿になるクラス作らなくてもjsonが扱える便利なやつである。
 
 ## パッケージのDL方法
 
@@ -22,8 +26,17 @@
 #### 「 DynamicJson」を検索しインストール
 
 
+## 実際にコードを書いてみる
 
-## 役割
+今回は、ユーザが任意の地域の天気情報を選択して表示できるコンソールアプリケーションを作成してみた。
+WeatherHacksでは地域にIDが割り振られており、そのIDで地域を指定する形式になっている。
+
+なので、
+- そのIDはXMLの形で取得できるので、そのXMLからIDを全件取得、一覧を表示。
+- その表示されたIDからユーザがIDを選択し、入力
+- そのIDの天気情報を取得、表示する
+
+という流れで作成した。
 
 - ### Main
 
@@ -369,8 +382,3 @@ namespace api_1
 ####   今回は「大分 : 440010」で検索してみた
 
 ![キャプチャ](https://user-images.githubusercontent.com/40161221/48674369-a1f6f580-eb8e-11e8-976e-a42dc83e8b9c.PNG)
-
-
-
-### 
-
