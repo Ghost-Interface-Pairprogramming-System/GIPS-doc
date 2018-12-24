@@ -15,7 +15,7 @@ Livedoorが提供する天気情報のWebAPI。
 
 WeatherHacksでは値をjsonで取得できるため、jsonをC#で扱いやすくするためのライブラリを追加した。
 
-DynamixJsonはその名の通り、jsonをC#のDynamic型に変換し、いちいちjsonの受け皿になるクラス作らなくてもjsonが扱える便利なやつである。
+DynamixJsonはその名の通り、jsonをC#のDynamic型に変換し、いちいちjsonの受け皿になるクラスを作らなくてもjsonが扱える便利なやつである。
 
 ## パッケージのDL方法
 
