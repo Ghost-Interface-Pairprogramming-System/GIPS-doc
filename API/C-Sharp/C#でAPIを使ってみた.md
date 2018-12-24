@@ -71,7 +71,7 @@ WeatherHacksでは地域にIDが割り振られており、そのIDで地域を�
 
 - ####  GetCityList()
 
-##### 	     http://weather.livedoor.com/forecast/rss/primary_area.xmlから
+##### 	     http://weather.livedoor.com/forecast/rss/primary_area.xml から
 
 ##### 　　　全ての府県名とIDをセットで取得し一覧表示出来るようにする
 
